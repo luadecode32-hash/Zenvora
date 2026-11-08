@@ -1,1 +1,12 @@
 npm install sitemap glob
+{
+  "name": "my-html-site",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node generate-sitemap.js"
+  },
+  "dependencies": {
+    "glob": "^10.0.0",
+    "sitemap": "^7.0.0"
+  }
+}
